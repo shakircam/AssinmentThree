@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Assinment Three</string>
+    <string name="userName">Enter User Name</string>
+    <string name="label">Lavel</string>
+    <string name="password">Enter Your Password</string>
+    <string name="noAccount">Haven\'t Any Account? Register</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+</resources>

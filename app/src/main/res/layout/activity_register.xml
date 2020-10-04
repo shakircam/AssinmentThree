@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/nameEd"
+        android:hint="@string/password"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="5dp"
+        android:inputType="textPersonName"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="95dp"
+        android:background="@drawable/bg_edittext"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+    </androidx.appcompat.widget.AppCompatEditText>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/phoneEd"
+        android:hint="@string/password"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="5dp"
+        android:inputType="phone"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edittext"
+        app:layout_constraintTop_toBottomOf="@+id/nameEd">
+
+    </androidx.appcompat.widget.AppCompatEditText>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/emailEd"
+        android:hint="@string/password"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="5dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edittext"
+        app:layout_constraintTop_toBottomOf="@+id/phoneEd">
+
+    </androidx.appcompat.widget.AppCompatEditText>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/userIdEd"
+        android:hint="@string/password"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="5dp"
+        android:inputType="text"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edittext"
+        app:layout_constraintTop_toBottomOf="@+id/emailEd">
+
+    </androidx.appcompat.widget.AppCompatEditText>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/passwordEd"
+        android:hint="@string/password"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="5dp"
+        android:inputType="numberPassword"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edittext"
+        app:layout_constraintTop_toBottomOf="@+id/userIdEd">
+
+    </androidx.appcompat.widget.AppCompatEditText>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/repeatPasswordEd"
+        android:hint="@string/password"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="5dp"
+        android:inputType="numberPassword"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edittext"
+        app:layout_constraintTop_toBottomOf="@+id/passwordEd">
+
+    </androidx.appcompat.widget.AppCompatEditText>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/urlEd"
+        android:hint="@string/password"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="5dp"
+        android:inputType="textUri"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edittext"
+        app:layout_constraintTop_toBottomOf="@+id/repeatPasswordEd">
+
+    </androidx.appcompat.widget.AppCompatEditText>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loginBt"
+        app:layout_constraintTop_toBottomOf="@+id/urlEd"
+        android:text="@string/register"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:background="@drawable/button"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
