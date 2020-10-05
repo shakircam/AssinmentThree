@@ -9,10 +9,12 @@
 
     <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/nameEd"
-        android:hint="@string/password"
+        android:hint="@string/name"
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:drawableStart="@drawable/person_add_24"
         android:inputType="textPersonName"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
@@ -25,14 +27,16 @@
 
     <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/phoneEd"
-        android:hint="@string/password"
+        android:hint="@string/phone"
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:drawableStart="@drawable/phone_24"
         android:inputType="phone"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:background="@drawable/bg_edittext"
         app:layout_constraintTop_toBottomOf="@+id/nameEd">
 
@@ -40,14 +44,16 @@
 
     <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/emailEd"
-        android:hint="@string/password"
+        android:hint="@string/email"
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:drawableStart="@drawable/ic_baseline_email_24"
         android:inputType="textEmailAddress"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:background="@drawable/bg_edittext"
         app:layout_constraintTop_toBottomOf="@+id/phoneEd">
 
@@ -55,14 +61,16 @@
 
     <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/userIdEd"
-        android:hint="@string/password"
+        android:hint="@string/userName"
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:paddingLeft="5dp"
+        android:paddingRight="5dp"
         android:inputType="text"
+        android:drawableStart="@drawable/person_add_24"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:background="@drawable/bg_edittext"
         app:layout_constraintTop_toBottomOf="@+id/emailEd">
 
@@ -74,10 +82,12 @@
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:paddingLeft="5dp"
+        android:paddingRight="5dp"
         android:inputType="numberPassword"
+        android:drawableStart="@drawable/ic_baseline_security_24"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:background="@drawable/bg_edittext"
         app:layout_constraintTop_toBottomOf="@+id/userIdEd">
 
@@ -85,14 +95,16 @@
 
     <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/repeatPasswordEd"
-        android:hint="@string/password"
+        android:hint="@string/rePassword"
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:drawableStart="@drawable/ic_baseline_check_circle_24"
         android:inputType="numberPassword"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:background="@drawable/bg_edittext"
         app:layout_constraintTop_toBottomOf="@+id/passwordEd">
 
@@ -100,21 +112,23 @@
 
     <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/urlEd"
-        android:hint="@string/password"
+        android:hint="@string/url"
         android:layout_width="match_parent"
         android:layout_height="45dp"
         android:paddingLeft="5dp"
+        android:paddingRight="5dp"
         android:inputType="textUri"
+        android:drawableStart="@drawable/ic_baseline_cloud_done_24"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:background="@drawable/bg_edittext"
         app:layout_constraintTop_toBottomOf="@+id/repeatPasswordEd">
 
     </androidx.appcompat.widget.AppCompatEditText>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/loginBt"
+        android:id="@+id/RegisterBt"
         app:layout_constraintTop_toBottomOf="@+id/urlEd"
         android:text="@string/register"
         android:textSize="25sp"
