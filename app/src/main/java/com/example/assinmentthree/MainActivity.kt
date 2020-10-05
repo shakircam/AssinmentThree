@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun loginCheck(){
-        if ()
+
     }
 
 }
